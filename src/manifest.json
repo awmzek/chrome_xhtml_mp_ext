@@ -1,0 +1,8 @@
+{
+	"name": "XHTML Mobile Profile",
+	"description": "Changes chrome to treat application/vnd.wap.xhtml+xml content as application/xhtml+xml by default.",
+	"version": "1.0",
+	"permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+	"background": { "scripts": ["background.js"] },
+	"manifest_version": 2
+}
